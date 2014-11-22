@@ -1,0 +1,24 @@
+﻿/* Section 1 */
+
+.button-started {
+  text-transform: uppercase;
+  padding: 15px 45px;
+  color: #fff;
+  background-color: #3b7685;
+  border: 1px solid #3b7685;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-shadow: 1px 4px 17px 2px rgba(0,0,0,0.53);
+  -moz-box-shadow: 1px 4px 17px 2px rgba(0,0,0,0.53);
+  box-shadow: 1px 4px 17px 2px rgba(0,0,0,0.53);
+}
+
+.button-started:hover { 
+  color: #fff;
+  background-color: #386b78;
+  -webkit-box-shadow: 1px 4px 17px 2px rgba(0,0,0,0.53);
+  -moz-box-shadow: 1px 4px 17px 2px rgba(0,0,0,0.53);
+  box-shadow: 1px 4px 17px 2px rgba(0,0,0,0.53);
+}

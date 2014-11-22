@@ -1,0 +1,29 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+p, blockquote, span {
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading-group {
+  margin-top: 120px;
+  line-height: 50%;
+}
+.heading-opacity {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  opacity: .9;
+  color: #fff; 
+  font-size: 1.5em; 
+  font-style: oblique;
+}
+
+.main-heading {
+  font-family: 'Lato', sans-serif;
+  color: #FCFEF5;
+  font-size: 5.1em;
+}
+
+
+

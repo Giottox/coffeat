@@ -1,0 +1,416 @@
+﻿* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .col-offset-3 {
+    margin-left: 2.66667%;
+  }
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-muted {
+  color: #777;
+}
+
+/* Section 1 */
+
+.section-coffee {
+  background: url(../images/cofe.png) no-repeat center center;
+  background-size: cover;
+  background-color: #333;
+  padding-bottom: 217px;
+  cursor: default;
+}
+
+.logo-coffeat {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.ul-coffee {
+  display: inline-block;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  background: transparent;
+  position: absolute;
+  top: 0%;
+  right: 10%;
+  margin-top: 15px;
+}
+
+.li-coffee {
+  font-size: 12px;
+  display: inline-block;
+  padding: 16px 25px;
+  
+}
+
+.li-coffee a {
+  color: #fff;
+  text-decoration: none;
+}
+/* End Section 1 /*
+/* Section 2 */
+
+.get-block {
+  cursor: default;
+}
+
+.get-images {
+  margin-top: 100px;
+  font-size: 40px;
+  padding: 30px 30px;
+  border: 2px solid #403c44;
+  border-radius: 50%;
+  display: inline-block;
+  color: #5e96a5;
+}
+
+.get-heading {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.get-heading:after{
+  content: '';
+  display: block;
+  height: 1px;
+  width: 85px;
+  background: #F63838;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.get-text {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-size: 14px;
+}
+/* End Section 2 /*
+/* Section 3 */
+
+.section-phone h1, p, hr {
+  cursor: default;
+}
+
+.section-phone {
+  background-color: #f9f9f9;
+  cursor: default;
+}
+
+.phone-heading {
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.phone-hr {
+  background-color: #F63838;
+  border: none;
+  height: 1px;
+  width: 108px;
+}
+
+.phone-text {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.phone-background {
+  margin-top: 77px;
+  background-image: url(../images/backgrounds/iphone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 564px;
+  width: 438px;
+  cursor: default;
+}
+/* End Section 3 /*
+/* Section 4 */
+@media (max-width: 1000px) {
+  .phone-btn-group {
+    margin-bottom: 100px;
+  }
+}
+
+.appstore-btn {
+  margin: 0 20px;
+}
+
+.googleplay-btn {
+  display: inline-block;
+}
+/* End Section 4 */
+/* Section 5 */
+
+.section-reviews {
+  background-image: url(../images/reviews-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: default;
+}
+
+.reviews-img-1 {
+  margin-top: 80px;
+  margin-bottom: 34px;
+  font-size: 20px;
+  width: 106px;
+  height: 106px;
+  border: 3px solid #7a898c;
+  border-radius: 50%;
+  display: inline-block;
+  color: #5e96a5;
+  background-size: cover;
+  cursor: default;
+}
+
+.reviews-quote {
+  color: #5296a4;
+  display: inline-block;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.reviews-p {
+  color: #5296a4;
+  font-size: 13px;
+  margin-bottom: 139px;
+}
+
+/* End Section 5 /*
+
+/* Section 6 */
+/*
+.section-location {
+  cursor: default;
+}
+
+.location-heading {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 95px;
+  font-weight: 600;
+}
+
+.location-block {
+  display: block;
+  height: 350px;
+  width: 1070px;
+  border-radius: 3px;
+  background: #f7f7f7;
+  margin: 0px auto 150px auto; 
+  border-radius: 3px;
+}
+
+.location-list {
+  display: inline-block;
+  position: absolute;
+  margin-top: 21px;
+}
+
+.location-map {
+  border-radius: 3px;
+  margin: 25px 35px 45px 22px;
+}
+
+.location-ul h3, span {
+  color: #3ba1bd;
+}
+
+.location-li {
+  list-style-type: none;
+}
+
+.location-li, span, h3 {
+  display: inline-block;
+}
+*/
+
+/* Section 6 — Map Column */
+
+.section-location {
+  cursor: default;
+}
+
+.map{
+  padding:6em 0;
+}
+.map-header h3{
+  font-weight:700;
+  font-size:20px;
+  padding:2em 0 3em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.map-row{
+  background:#f7f7f7;
+  border-bottom: 6px solid #eeeeee;
+  margin-bottom: 200px;
+  cursor: default;
+}
+.map-row-column{
+  padding:2em;
+}
+.map-row-column iframe{
+  width:100%;
+  height:300px;
+}
+.map-column{
+  border:0px;
+  border-style: solid;
+  border-bottom-width:1px;
+  padding:0 0 20px 0;
+  width:90%;
+  border-color: rgba(0, 0, 0, 0.11);
+}
+.map-column h4.map-column-head{
+  float: left;
+  font-size:25px;
+  font-weight:700;
+  color: #30788b;
+  background:url(../images/map-1.png)no-repeat left;
+  padding:12px 0px 12px 50px;
+  border:0px;
+  text-transform: none;
+  margin-bottom: 0px;
+}
+.map-column h4.map-column-head-right{
+  float:right;
+  font-size:25px;
+  font-weight:700;
+  color: #30788b;
+  border:0px;
+  padding:12px 0px 12px 50px;
+  margin-bottom: 0px;
+}
+.map-column p{
+  padding:2px 0 2px 5px;
+  margin: 0px 46px;
+  color:#b7bec8;
+  font-size:16px;
+  display: inline-block;
+}
+.row1{
+  outline:none;
+  padding: 20px;
+  overflow: auto;
+  height: 300px;
+}
+/*-- start scrollpane --*/
+.jspContainer{
+  overflow: hidden;
+  position: relative;
+}
+.jspPane{
+  position: absolute;
+  outline: none;
+}
+.jspVerticalBar{
+  position: absolute;
+  top: 0;
+  right:10px;
+  width:3px;
+  height: 100%;
+}
+.jspHorizontalBar{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 16px;
+  background: red;
+}
+.jspCap{
+  display: none;
+}
+.jspHorizontalBar .jspCap{
+  float: left;
+}
+.jspTrack{
+  background: none;
+  position: relative;
+}
+.jspDrag{
+  background: #e3e4e8;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  width:7px;
+}
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag{
+  float: left;
+  height: 100%;
+}
+.jspArrow{
+  background: #50506d;
+  text-indent: -20000px;
+  display: block;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.jspArrow.jspDisabled{
+  cursor: default;
+  background: #80808d;
+}
+.jspVerticalBar .jspArrow{
+  height: 16px;
+}
+.jspHorizontalBar .jspArrow{
+  width: 16px;
+  float: left;
+  height: 100%;
+}
+.jspVerticalBar .jspArrow:focus{
+  outline: none;
+}
+.jspCorner{
+  background: #eeeef4;
+  float: left;
+  height: 100%;
+}
+/* End Section 6 /*
+/* Footer */
+
+.footer {
+  background: #f7f7f7;
+  padding: 15px 0;
+  cursor: default;
+}
+
+.footer-group {
+  display: inline-block;
+}
+
+.footer-info {
+  font-size: 17px;
+  
+}
+
+.fa-giotto, a {
+  color: #3ba1bd;
+  font-size: 19px;
+}
+
+.footer-thanks {
+  float: right;
+}
