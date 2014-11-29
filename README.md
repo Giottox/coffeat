@@ -1,3 +1,3 @@
 LANDING PAGE — COFFEAT.
 
-https//giottox.github.io/coffeat
+https://giottox.github.io/coffeat
